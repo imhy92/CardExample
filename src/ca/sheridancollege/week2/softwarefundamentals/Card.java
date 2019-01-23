@@ -16,6 +16,16 @@ public class Card {
     public Card (String s, int v){
         suit = s;
         value = v;
+        
+        if (s.equals("Hearts") || s.equals("Spades") || s.equals ("Clubs") || s.equals("Diamonds"))
+            System.out.println ("The suit parameter is valid");
+        else
+            System.out.println ("The suit parameter is not valid");
+        
+        if (v >= 1 && v <= 13)
+            System.out.println ("The card value is valid");
+        else 
+            System.out.println ("The card value is not valid");
     }
 
     /**
