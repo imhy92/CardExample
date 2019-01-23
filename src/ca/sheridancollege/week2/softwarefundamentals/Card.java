@@ -26,6 +26,8 @@ public class Card {
             System.out.println ("The card value is valid");
         else 
             System.out.println ("The card value is not valid");
+        
+        System.out.println ("hello this is for commit2");
     }
 
     /**
